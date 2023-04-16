@@ -25,7 +25,7 @@ body {
     background-color: skyblue;
     display: flex;
     flex-wrap: wrap;
-    max-width: 700px;
+    max-width: 800px;
     font-family: var(--font);
     overflow: hidden;
     border-radius: .6em;
@@ -73,6 +73,7 @@ body {
 
 .text--big {
     font-size: 2em;
+    font-weight: 700;
 }
 
 .text--lighter {
@@ -89,6 +90,7 @@ body {
     font-weight: 400;
     border-radius: .5em;
     box-shadow: 0 2em 8em #1d1d167e;
+    font-weight: 700;
 }
 
 .button:hover {
@@ -117,7 +119,7 @@ body {
     line-height: 1.2em;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:800px){
     
 body {
     padding:3em 2em;
