@@ -58,7 +58,7 @@ body {
 
 .top__subtitle {
     color: var(--Bright-Yellow);
-    letter-spacing: 1px;
+    font-size: 1.25em;
 }
 
 .top__info {
